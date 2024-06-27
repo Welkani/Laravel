@@ -19,7 +19,7 @@ return new class extends Migration
             $table->string('adresse');
             $table->string('code_postal',10);
             $table->string('ville',60);
-            $table->string('telephone1',20);
+            $table->string('telephone',20);
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
